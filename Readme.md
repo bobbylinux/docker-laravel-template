@@ -9,11 +9,11 @@ git clone git@github.com:laravel/laravel.git app
 ```
 ## Build
 ```sh
-docker-compose -f docker-compose.yml build
+docker compose -f docker-compose.yml build
 ```
 ## Run
 ```sh
-docker-compose -f docker-compose.yml build
+docker compose up -d
 ```
 ## Install Laravel
 ```sh
