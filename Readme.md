@@ -17,7 +17,7 @@ docker compose up -d
 ```
 ## Install Laravel
 ```sh
- docker-compose exec php-fpm composer install
- docker-compose exec php-fpm php artisan key:generate
- docker-compose exec php-fpm php artisan config:cache
+ docker compose exec php-fpm composer install
+ docker compose exec php-fpm php artisan key:generate
+ docker compose exec php-fpm php artisan config:cache
 ```
